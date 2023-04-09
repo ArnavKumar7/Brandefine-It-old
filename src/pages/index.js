@@ -10,11 +10,11 @@ export default function Home() {
       <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
         <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
           <Image
-            src="/dsgnr_logo.png"
+            src="/final_dsgnr_logo.png"
             alt="DSGNR Logo"
-            className="dark:filter invert"
-            width={100}
-            height={24}
+            className=""
+            width={250}
+            height={150}
             priority
           />
         </div>
@@ -30,15 +30,15 @@ export default function Home() {
               src="/PES_white.png"
               alt="PES University"
               className="pointer-events-none"
-              width={100}
-              height={24}
+              width={150}
+              height={84}
               priority
             />
           </Link>
         </div>
       </div>
 
-      <div className="relative flex place-items-center before:absolute before:h-[480px] before:w-[360px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-3xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
+      <div className="relative pl-2 flex place-items-center before:absolute before:h-[480px] before:w-[360px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-3xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
         <Image
           className=""
           src="/LogoPink.png"
@@ -49,7 +49,7 @@ export default function Home() {
         />
       </div>
 
-      <button className="relative z-10 px-3 py-2 text-3xl font-semibold text-[#00b182] transition ease-in-out delay-150 bg-[#020202] hover:-translate-y-1 hover:scale-110  hover:bg-[#ffffff] duration-300 rounded-xl shadow-lg border-solid border-4 border-[#ffffff] active:bg-white focus:outline-none focus:ring focus:ring-white">
+      <button className="relative ml-8 z-10 px-3 py-2 text-3xl font-semibold text-[#00b182] transition ease-in-out delay-150 bg-[#020202] hover:-translate-y-1 hover:scale-110  hover:bg-[#ffffff] duration-300 rounded-xl shadow-lg border-solid border-4 border-[#ffffff] active:bg-white focus:outline-none focus:ring focus:ring-white">
         <Link href="https://rzp.io/l/tlUJqDwwv">REGISTER NOW</Link>
       </button>
 
