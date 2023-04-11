@@ -46,7 +46,7 @@ export default function Home() {
         />
       </div>
 
-      <button className="relative ml-8 z-10 px-3 py-2 text-3xl font-semibold text-[#00b182] transition ease-in-out delay-150 bg-[#020202] hover:-translate-y-1 hover:scale-110  hover:bg-[#ffffff] duration-300 rounded-xl shadow-lg border-solid border-4 border-[#ffffff] active:bg-white focus:outline-none focus:ring focus:ring-white xs:text-base xs:px-1 xs:py-1 xs:ml-0">
+      <button className="relative ml-8 z-10 px-3 py-2 text-3xl font-semibold text-[#00b182] transition ease-in-out delay-150 bg-[#020202] hover:-translate-y-1 hover:scale-110  hover:bg-[#ffffff] duration-300 rounded-xl shadow-lg border-solid border-4 border-[#ffffff] active:bg-white focus:outline-none focus:ring focus:ring-white xs:text-base xs:px-1 xs:py-1 xs:ml-0 xs:border-2">
         <Link href="https://rzp.io/l/tlUJqDwwv">REGISTER NOW</Link>
       </button>
     </main>
