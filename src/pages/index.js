@@ -2,46 +2,43 @@ import Image from "next/image";
 import { Inter } from "next/font/google";
 import Link from "next/link";
 
-const inter = Inter({ subsets: ["latin"] });
-
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center p-16 w-3/4 pt-0">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+    <main className="flex min-h-screen flex-col items-center justify-center p-16 w-3/4 pt-0 xs:w-full">
+      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex xs:flex xs:absolute xs:bottom-4">
+        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none xs:relative xs:w-[60px] xs:left-[40px] xs:bottom-8">
           <Image
-            src="/final_dsgnr_logo.png"
+            src="/pata_nai.png"
             alt="DSGNR Logo"
             className=""
-            width={250}
-            height={150}
+            width={100}
+            height={100}
             priority
           />
         </div>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
+        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none xs:w-auto xs:relative">
           <Link
             className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
             href="https://www.pes.edu"
             target="_blank"
             rel="noopener noreferrer"
           >
-            By{" "}
             <Image
               src="/PES_white.png"
               alt="PES University"
               className="pointer-events-none"
-              width={150}
-              height={84}
+              width={100}
+              height={100}
               priority
             />
           </Link>
         </div>
       </div>
 
-      <div className="relative pl-2 flex place-items-center before:absolute before:h-[480px] before:w-[360px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-3xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700/10 after:dark:from-sky-900 after:dark:via-[#0141ff]/40 before:lg:h-[360px]">
+      <div className="relative pl-2 flex place-items-center before:absolute before:h-[480px] before:w-[360px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial">
         <Image
           className=""
-          src="/stay_tuned.svg"
+          src="/landing_new.png"
           alt="Brandefine-It Logo"
           width={600}
           height={480}
@@ -49,87 +46,9 @@ export default function Home() {
         />
       </div>
 
-      {/* <button className="relative ml-8 z-10 px-3 py-2 text-3xl font-semibold text-[#00b182] transition ease-in-out delay-150 bg-[#020202] hover:-translate-y-1 hover:scale-110  hover:bg-[#ffffff] duration-300 rounded-xl shadow-lg border-solid border-4 border-[#ffffff] active:bg-white focus:outline-none focus:ring focus:ring-white">
+      <button className="relative ml-8 z-10 px-3 py-2 text-3xl font-semibold text-[#00b182] transition ease-in-out delay-150 bg-[#020202] hover:-translate-y-1 hover:scale-110  hover:bg-[#ffffff] duration-300 rounded-xl shadow-lg border-solid border-4 border-[#ffffff] active:bg-white focus:outline-none focus:ring focus:ring-white xs:text-base xs:px-1 xs:py-1 xs:ml-0">
         <Link href="https://rzp.io/l/tlUJqDwwv">REGISTER NOW</Link>
-      </button> */}
-
-      {/* <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-            Docs{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-          >
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-            Learn{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-          >
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-            Templates{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-          >
-            Discover and deploy boilerplate example Next.js&nbsp;projects.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`${inter.className} mb-3 text-2xl font-semibold`}>
-            Deploy{" "}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p
-            className={`${inter.className} m-0 max-w-[30ch] text-sm opacity-50`}
-          >
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div> */}
+      </button>
     </main>
   );
 }
