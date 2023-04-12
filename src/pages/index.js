@@ -42,7 +42,7 @@ export default function Home() {
         <div className="relative pl-2 flex place-items-center before:absolute before:h-[480px] before:w-[360px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial">
           <Image
             className=""
-            src="/LogoPink.png"
+            src="/landing_new.png"
             alt="Brandefine-It Logo"
             width={600}
             height={480}
@@ -50,9 +50,9 @@ export default function Home() {
           />
         </div>
 
-        <button className="relative z-10 px-3 py-2 text-3xl font-semibold text-[#00b182] transition ease-in-out delay-150 bg-[#020202] hover:-translate-y-1 hover:scale-110  hover:bg-[#ffffff] duration-300 rounded-xl shadow-lg border-solid border-4 border-[#ffffff] active:bg-white focus:outline-none focus:ring focus:ring-white xs:text-base xs:px-1 xs:py-1 xs:ml-0 xs:border-2">
+        {/* <button className="relative z-10 px-3 py-2 text-3xl font-semibold text-[#00b182] transition ease-in-out delay-150 bg-[#020202] hover:-translate-y-1 hover:scale-110  hover:bg-[#ffffff] duration-300 rounded-xl shadow-lg border-solid border-4 border-[#ffffff] active:bg-white focus:outline-none focus:ring focus:ring-white xs:text-base xs:px-1 xs:py-1 xs:ml-0 xs:border-2">
           <Link href="https://rzp.io/l/oKBk5oYlJM">REGISTER NOW</Link>
-        </button>
+        </button> */}
       </main>
     </>
   );
